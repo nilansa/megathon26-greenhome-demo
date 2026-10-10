@@ -1,0 +1,27 @@
+{
+  "electricityKgPerKwh": 0.13096,
+  "gasKgPerKwh": 0.18231,
+  "electricityPoundsPerKwh": 0.2632,
+  "gasPoundsPerKwh": 0.0797,
+  "factors": [
+    {
+      "category": "Scope 1",
+      "fuel": "Natural gas",
+      "unit": "kWh (Gross CV)",
+      "factor_unit": "kg CO2e",
+      "value": 0.18231,
+      "code": "1_100_1004_6_1"
+    },
+    {
+      "category": "Scope 2",
+      "fuel": "Electricity: UK",
+      "unit": "kWh",
+      "factor_unit": "kg CO2e",
+      "value": 0.13096,
+      "code": "7_400_4000_5_1"
+    }
+  ],
+  "source": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
+  "tariffSource": "https://www.ofgem.gov.uk/your-energy-supply/your-energy-bill/energy-price-cap-unit-rates-and-standing-charges",
+  "note": "2026 UK grid scope 2 kg CO2e/kWh and natural-gas gross-calorific-value scope 1 kg CO2e/kWh. Ofgem October\u2013December 2026 average Direct Debit unit rates, excl. standing charges. Region and tariff differ."
+}
